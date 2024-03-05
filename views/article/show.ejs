@@ -1,0 +1,14 @@
+<div class="container">
+    <h1 class="text-center">Welcome to our Blog</h1>
+    <a class="btn btn-success" href="/">Home</a>
+
+    <div class="container border my-2">
+        <h1><%= article.title %></h1>
+        <p><%= article.des %></p>
+        <b><%= article.info %></b>
+        <h5>
+            <i><%= article.createdAt.toLocaleDateString() %></i>
+        </h5>
+    </div>
+
+</div>
